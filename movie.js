@@ -1,4 +1,6 @@
-const APIKEY = '7a5bc1a56c7210ad49751228b40e4126';
+import { myAPIKEY } from "./api";
+
+const APIKEY = myAPIKEY;
 const imgURL = 'https://image.tmdb.org/t/p/w500';
 
 const options = {
