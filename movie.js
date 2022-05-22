@@ -1,4 +1,4 @@
-import getAPIKEY from "./api";
+import getAPIKEY from "./api.js";
 
 const APIKEY = getAPIKEY();
 const imgURL = 'https://image.tmdb.org/t/p/w500';
