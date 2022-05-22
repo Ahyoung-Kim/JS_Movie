@@ -1,7 +1,9 @@
-import { myAPIKEY } from "./api";
+import getAPIKEY from "./api";
 
-const APIKEY = myAPIKEY;
+const APIKEY = getAPIKEY();
 const imgURL = 'https://image.tmdb.org/t/p/w500';
+
+console.log(APIKEY)
 
 const options = {
   method: 'GET',
